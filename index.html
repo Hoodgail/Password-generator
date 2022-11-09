@@ -25,6 +25,20 @@
                     ></textarea>
                 </div>
                 <div class="card-footer">
+                    <div class="options_container">
+                        <label for="lowercase">Lowercase</label>
+                        <input type="checkbox" name="lowercase" id="lowercase" data-num="0" />
+                        <label for="uppercase">Uppercase</label>
+                        <input type="checkbox" name="uppercase" id="uppercase" data-num="1" />
+                        <label for="numeric">Numeric</label>
+                        <input type="checkbox" name="numeric" id="numeric" data-num="2" />
+                        <label for="specialChar">Special Charecter</label>
+                        <input type="checkbox" name="specialChar" id="specialChar" data-num="3" />
+                    </div>
+                    <div class="charNum_container">
+                        <label for="charNum">Number of Charecter (between 8 - 128) : </label>
+                        <input id="charNum" type="text" value="10" />
+                    </div>
                     <button id="generate" class="btn">Generate Password</button>
                 </div>
             </div>
