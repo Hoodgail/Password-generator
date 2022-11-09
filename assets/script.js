@@ -36,6 +36,7 @@ const generatePassword = function () {
 
 // Write password to the #password input
 function writePassword() {
+    allChar = "";
     addChar();
     const password = generatePassword();
     const passwordText = document.querySelector("#password");
