@@ -39,7 +39,7 @@ function writePassword() {
     addChar();
     const password = generatePassword();
     const passwordText = document.querySelector("#password");
-
+    if (!password) return;
     passwordText.value = password;
 }
 
