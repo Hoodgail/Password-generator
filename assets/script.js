@@ -7,8 +7,8 @@ const lowercase = document.querySelector(".lowercase");
 const options_container = document.querySelector(".options_container");
 
 let allChar = "";
-// prettier-ignore
-const allChars = ["abcdefghiklmnopqrstvxyz", "ABCDEFGHIKLMNOPQRSTVXYZ", "1234567890", "!\u0022#$%&'()*+,-./:;<=>?@[\u005C]^_`{|}~",];
+//  prettier-ignore
+const allChars = ["abcdefghiklmnopqrstvxyz", "ABCDEFGHIKLMNOPQRSTVXYZ", "1234567890", "!\u0022#$%&'()*+,-./:;<=>?@[\u005C]^_`{|}~"];
 console.log(allChar.length);
 
 const addChar = function () {
